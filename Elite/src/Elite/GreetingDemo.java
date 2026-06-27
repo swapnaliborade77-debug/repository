@@ -1,8 +1,5 @@
 package Elite;
 
-
-
-
 interface Greeting{
 	void sayHello();
 	
