@@ -1,0 +1,8 @@
+team,player,jersey,biddingAmount
+Mumbai Indians,Rohit Sharma,45,16000000
+Mumbai Indians,Hardik Pandya,33,15000000
+Mumbai Indians,Jasprit Bumrah,93,18000000
+CSK,MS Dhoni,7,12000000
+CSK,Ravindra Jadeja,8,16000000
+RCB,Virat Kohli,18,17000000
+RCB,Glenn Maxwell,32,11000000
