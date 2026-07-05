@@ -1,34 +1,31 @@
 package Library;
 
 public class Member {
+
     private String name;
-    private Book book;
+    private Book bk;
 
     public Member(String name) {
         this.name = name;
     }
 
-    public void issueBook(Book b) {
-        if (book != null) {
-            System.out.println(name + " already has a book.");
-            return;
-        } 
-
-        if (b.issueTo(this)) {
-            book = b;
-            System.out.println(name + " successfully issued " + b);
-        }
-    }
-
-    @Override 
-    public String toString() {
-        return "Member [name=" + name + "]";
-    }
-
     public void status() {
-        if (book == null)
-            System.out.println(name + " has no book.");
+        if (bk == null)
+            System.out.println(name + " has not issued any book.");
         else
-            System.out.println(name + " has " + book);
+            System.out.println(name + " has issued " + bk);
+    }
+
+    public Book getBk() {
+        return bk;
+    }
+
+    public void setBk(Book bk) {
+        this.bk = bk;
+    }
+
+    @Override
+    public String toString() {
+        return "Member [Name=" + name + "]";
     }
 }
